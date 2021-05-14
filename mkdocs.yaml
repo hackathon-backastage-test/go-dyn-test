@@ -1,0 +1,8 @@
+site_name: "Generate Go Example"
+site_description: "An example generated from a template"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
