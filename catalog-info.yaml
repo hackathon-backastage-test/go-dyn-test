@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Go-dynamic
+  description: A test of the generation
+  annotations: 
+    github.com/project-slug: hackathon-backastage-test/go-dyn-test
+    backstage.io/source-ref: "https://github.com/hackathon-backastage-test/go-dyn-test"
+    backstage.io/techdocs-ref: url:https://github.com/hackathon-backastage-test/go-dyn-test
+    backstage.io/github-actions-id: https://github.com/hackathon-backastage-test/go-dyn-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: TimBritton
